@@ -1,8 +1,9 @@
-#ProfilePicture{
-    text-align: center;
-}
 
 #Landing_Header{
     text-align: center;
     color: blue;
+}
+
+.Project_Card{
+    text-align: center;
 }
