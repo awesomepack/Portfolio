@@ -16,51 +16,103 @@
     </head>
 
     <body>
+
         
-        <div class="page-header" id="Landing_Header">
-            <h1>Merari Cisneros <small>Data Engineer</small></h1>
-            <img src="profile picture" alt="Merari's Profile Picture"> <!-- My profile picture-->
+        <div class="container" id="Landing_Header">
+            <div class="row">
+
+                <div class="column">
+                    <img src="..." class="img-thumbnail" alt="Merari's Profile Picture">
+                </div>
+
+                <div class="column">
+                <h1>Merari Cisneros <small>Data Engineer</small></h1>
+                </div>
+
+                <div class="column"></div>
+              
+            </div>
+
+        </div> <!-- End Header-->
+
+
+
+        <div class="container" id="aboutme">
+            <div class="row">
+
+                <div class="column"></div>
+
+                <div class="column">
+                <p class="summary">
+                    Aspiring Data Engineer interested in optimizing the movement of data into web applications.
+                    Currently working as a procurement analyst where I model supply chain data to 
+                    improve the sourcing of medical equipment
+
+                    When I am not working I like to spend my time reading, running, hiking, and cooking.
+                    <table class = "table">
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Hobby</th>
+                                <th scope="col">Interesting Fact</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Running</td>
+                                <td>Ran the Rock N Roll Marathon</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cooking</td>
+                                <td>Made Ravioloi from scratch</td>
+                            </tr>
+
+                            <tr>
+                                <td>Reading</td>
+                                <td>The Illustrated Man -Ray Bradbury</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+                </p>
+                <div class="column"></div>
+
+            </div>
+
         </div>
 
-        <div class="About_Me">
-            <p id="About_Me">
-                Aspiring Data Engineer passionate about refining data to support the creation and implementation
-                of data models at scale. Currently working as a procurement analyst where I am trying to model
-                supply chain data to track inventory and ordering KPI's
 
-                When I am not working I like to spend my time reading, running, hiking, and cooking.
-                <li>Favorite Book: "The Illustrated Man" Ray Bradbury </li>
-                <li>Longest race: Rock N Roll Marathon San Diego </li>
-                <li> Toughest Hike: El Cajon Mountain San Diego </li>
-                <li>Coolest thing cooked: Ravioli from scratch but improperl sealed pockets :(</li>
-            </p>
-        </div>
 
-        <div class = "Card_Container">
+        <div class = "container">
         
             <div class="Project_Card">
 
-                <h3>Dynamic Web Hosting in Azure</h3>
-                <p id="project1">
-                    How I hosted a dynamic website by leveraging azure archictecture
+                <h3>Static Web Hosting in Azure</h3>
+                <p class="summary">
+                    Created a static profile page using HTML and CSS. Then hosted it using Azure storage and 
+                    app services.
                 </p>
 
             </div>
 
             <div class="Project_Card">
 
-                <h3> Graph Theory's application in DNA Sequencing </h3>
-                <p id="project2">
-                    A software implemntation of Heizenhower's algorithm to sequnce DNA fragments.
-                    Choose a known simple gene sequence
-                    partition it into n sized pieces
-                    implement the algorithm to recontsruct the sequence
-                    validate the efficiency of the implementation by comparing the distance of the predicted
-                    to that of the actual sequence
+                <h3> Graph Theory's application in DNA sequencing </h3>
+                <p class="summary">
+                    Applying Heirholzer's algorithm to determine the DNA sequence from a batch of n sized
+                    polymers. Implemented as a client facing tool that allows users to input their own
+                    DNA fragments.
                 </p>
 
             </div>
         </div><!--End card container-->
+
+
+
     
     </body>
 </html>

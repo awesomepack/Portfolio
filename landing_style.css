@@ -1,13 +1,22 @@
 
 #Landing_Header{
     text-align: center;
-    color: blue;
+    color: black;
 }
 
 .Project_Card{
     text-align: center;
 }
 
-.About_Me{
+
+
+.summary{
     text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.table{
+    margin: auto;
+    width: 600px;
 }
