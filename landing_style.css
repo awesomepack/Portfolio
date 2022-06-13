@@ -52,6 +52,7 @@
     background: #6d7fcc;
     width: 100%;
     height: 30%;
+    text-align: center;
 }
 
 #sidebar .sidebar_header {
@@ -59,6 +60,7 @@
     background: #6d7fcc;
     width: 100%;
     height: 8%;
+    text-align: center;
 }
 
 a {
