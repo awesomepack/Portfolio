@@ -39,3 +39,19 @@
     color: #fff;
 
 }
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar .sidebar_header {
+    padding: 20px;
+    background: #6d7fcc;
+}
