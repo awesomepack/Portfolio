@@ -24,3 +24,9 @@
     margin: auto;
     width: 600px;
 }
+
+.side{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
